@@ -8,21 +8,21 @@ function Nav() {
         <li className={navStyles.rotate}>
           <Link href="/#aboutme">
             <a className={navStyles.link}>
-              <h5>about me</h5>
+              <span>about me</span>
             </a>
           </Link>
         </li>
         <li className={navStyles.rotate}>
           <Link href="/#projects">
             <a className={navStyles.link}>
-              <h5>projects</h5>
+              <span>projects</span>
             </a>
           </Link>
         </li>
         <li className={navStyles.rotate}>
           <Link href="/#contacts">
             <a className={navStyles.link}>
-              <h5>contacts</h5>
+              <span>contacts</span>
             </a>
           </Link>
         </li>

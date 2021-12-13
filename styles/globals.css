@@ -4,15 +4,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "lust", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "nimbus-sans", sans-serif;
+  font-size: 16px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  font-family: "nimbus-sans", sans-serif;
 }
 
 * {
@@ -20,5 +20,47 @@ a {
 }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+}
+
+:root {
+  --typography-font-heading: "lust";
+  --color-bege: #d4bbad;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+label {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "lust", serif;
+}
+
+h2 {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4.1rem;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
+p {
 }

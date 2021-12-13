@@ -7,6 +7,7 @@
   width: 80px;
   height: 100vh;
   padding: 30vh 0;
+  z-index: 2;
 }
 
 .navContainer a {
@@ -26,6 +27,32 @@
 }
 
 .link {
-  padding: 10px 30px;
+  padding: 10px 10px;
   white-space: nowrap;
+  font-size: 0.9375rem;
+  letter-spacing: 0.02rem;
+  position: absolute;
+}
+
+.link span {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.link span::before {
+  content: "";
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  transform: translateX(-101%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.link:hover span::before {
+  transform: translateX(0);
 }

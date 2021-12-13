@@ -7,10 +7,10 @@ function Project1() {
     <>
       <section className={styles.container}>
         <div className={styles.container}>
-          <h1>Turning Point — Escola de Dança</h1>
-          <p>cenas aqui</p>
+          <h1>Wanna be a Globtrotter ?</h1>
+          <p>do you have what it takes to make the team ?</p>
           <br />
-          <Link href="/">Go back</Link>
+          <Link href="/#projects">Go back</Link>
         </div>
       </section>
     </>

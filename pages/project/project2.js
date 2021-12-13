@@ -10,7 +10,7 @@ function Project2() {
           <h1>Popcorn</h1>
           <p>get your popcorn on!</p>
           <br />
-          <Link href="/">Go back</Link>
+          <Link href="/#projects">Go back</Link>
         </div>
       </section>
     </>
