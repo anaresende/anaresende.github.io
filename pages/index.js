@@ -65,51 +65,54 @@ export default function Home() {
           </h2>
           <Parallax y={[20, -10]}>
             <div className={styles.works}>
-              <Link href="/project/project1">
-                <a className={styles.projectCard}>
-                  <Image
-                    src={project1}
-                    alt="Picture of the author"
-                    height="245"
-                    width="333"
-                  />
-                  <div className={styles.coverup}>
-                    <h4>
-                      Wanna be a <br />
-                      Globtrotter?
-                    </h4>
-                  </div>
-                </a>
-              </Link>
-              <Link href="/project/project2">
-                <a className={styles.projectCard}>
-                  <Image
-                    src={project2}
-                    alt="Picture of the author"
-                    height="245"
-                    width="333"
-                  />
-                  <div className={styles.coverup}>
-                    <h4>Popcorn</h4>
-                  </div>
-                </a>
-              </Link>
-              <Link href="/project/project3">
-                <a className={styles.projectCard}>
-                  <Image
-                    src={project3}
-                    alt="Picture of the author"
-                    height="245"
-                    width="333"
-                  />
-                  <div className={styles.coverup}>
-                    <h4>
-                      Turning <br />
-                      Point
-                    </h4>
-                  </div>
-                </a>
-              </Link>
+              <a
+                href="https://anaresende.github.io/wanna-be-a-globtrotter/"
+                className={styles.projectCard}
+              >
+                <Image
+                  src={project1}
+                  alt="Picture of the author"
+                  height="245"
+                  width="333"
+                />
+                <div className={styles.coverup}>
+                  <h4>
+                    Wanna be a <br />
+                    Globtrotter?
+                  </h4>
+                </div>
+              </a>
+              <a
+                href="https://popcornmovie.herokuapp.com/"
+                className={styles.projectCard}
+              >
+                <Image
+                  src={project2}
+                  alt="Picture of the author"
+                  height="245"
+                  width="333"
+                />
+                <div className={styles.coverup}>
+                  <h4>Popcorn</h4>
+                </div>
+              </a>
+              <a
+                href="https://turningpoint.dance/"
+                className={styles.projectCard}
+              >
+                <Image
+                  src={project3}
+                  alt="Picture of the author"
+                  height="245"
+                  width="333"
+                />
+                <div className={styles.coverup}>
+                  <h4>
+                    Turning <br />
+                    Point
+                  </h4>
+                </div>
+              </a>
             </div>
           </Parallax>
         </div>

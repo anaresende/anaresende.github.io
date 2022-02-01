@@ -103,9 +103,25 @@
   color: var(--color-bege);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .title {
+    font-size: 4rem;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .container {
+    padding: 60px;
+    justify-content: center;
+    height: auto;
+  }
+  .works {
+    flex-direction: column;
+  }
+  .bio {
+    font-size: 14px;
+    width: auto;
+    padding: 20px;
   }
 }
