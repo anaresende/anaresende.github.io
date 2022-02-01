@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-import Nav from "../components/Nav";
 import styles from "../styles/Home.module.css";
 import meImage from "../media/images/eu.jpg";
 import classnames from "classnames";
@@ -8,7 +5,6 @@ import { Parallax } from "react-scroll-parallax";
 import project1 from "../media/images/project1.jpg";
 import project2 from "../media/images/project2.jpg";
 import project3 from "../media/images/project3.jpg";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,12 +18,12 @@ export default function Home() {
       <section id="aboutme">
         <div className={classnames(styles.container, styles.about)}>
           <h2>
-            I'm Ana, <br />
+            I&apos;m Ana, <br />
             nice to meet you<span>!</span>
           </h2>
           <div className={styles.photo}>
             <Parallax y={[-10, 20]} tagOuter="figure">
-              <Image
+              <img
                 src={meImage}
                 alt="Picture of the author"
                 height="582"
@@ -37,22 +33,23 @@ export default function Home() {
           </div>
           <Parallax y={[20, -10]}>
             <div className={styles.bio}>
-              <p>I’m a dance teacher going into tech!</p>
+              <p>I&apos;m a dance teacher going into tech!</p>
               <p>
                 Coming from a creative field, and with a background in design,
-                I’m keen on building clean code and looking for the pixel
+                I&apos;m keen on building clean code and looking for the pixel
                 perfect to match the design on my implementations.
               </p>
               <p>
-                I'm very passion about visual arts so frontend web development
-                comes as second nature to me — as a designer I understand the
-                importance of creating the best experience for your users, so as
-                web developer I will make my mission to accomplish that.
+                I&apos;m very passion about visual arts so frontend web
+                development comes as second nature to me — as a designer I
+                understand the importance of creating the best experience for
+                your users, so as web developer I will make my mission to
+                accomplish that.
               </p>
               <p>
-                When I'm not coding you can be sure that I'll be working on some
-                photography or video project — as I said before, visuals arts
-                run in my blood.
+                When I&apos;m not coding you can be sure that I&apos;ll be
+                working on some photography or video project — as I said before,
+                visuals arts run in my blood.
               </p>
             </div>
           </Parallax>
@@ -69,7 +66,7 @@ export default function Home() {
                 href="https://anaresende.github.io/wanna-be-a-globtrotter/"
                 className={styles.projectCard}
               >
-                <Image
+                <img
                   src={project1}
                   alt="Picture of the author"
                   height="245"
@@ -86,7 +83,7 @@ export default function Home() {
                 href="https://popcornmovie.herokuapp.com/"
                 className={styles.projectCard}
               >
-                <Image
+                <img
                   src={project2}
                   alt="Picture of the author"
                   height="245"
@@ -100,7 +97,7 @@ export default function Home() {
                 href="https://turningpoint.dance/"
                 className={styles.projectCard}
               >
-                <Image
+                <img
                   src={project3}
                   alt="Picture of the author"
                   height="245"
@@ -121,7 +118,7 @@ export default function Home() {
         <div className={classnames(styles.container, styles.contacts)}>
           <h2>liked what you seen?</h2>
           <a href="mailto:anaresende93@gmail.com">
-            <h4>let's get in touch</h4>
+            <h4>let&apos;s get in touch</h4>
           </a>
         </div>
       </section>
