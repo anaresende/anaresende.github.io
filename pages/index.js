@@ -1,10 +1,7 @@
 import styles from "../styles/Home.module.css";
-import meImage from "../media/images/eu.jpg";
 import classnames from "classnames";
 import { Parallax } from "react-scroll-parallax";
-import project1 from "../media/images/project1.jpg";
-import project2 from "../media/images/project2.jpg";
-import project3 from "../media/images/project3.jpg";
+import { prefix } from "../prefix";
 
 export default function Home() {
   return (
@@ -12,7 +9,7 @@ export default function Home() {
       <section>
         <div className={styles.container}>
           <h1 className={styles.title}>hello!</h1>
-          <h4>my name is Ana and this is my portfolio</h4>
+          <h4>my name is Ana and I&apos;m a frontend developer</h4>
         </div>
       </section>
       <section id="aboutme">
@@ -24,7 +21,7 @@ export default function Home() {
           <div className={styles.photo}>
             <Parallax y={[-10, 20]} tagOuter="figure">
               <img
-                src={meImage}
+                src={`${prefix}/images/eu.jpg`}
                 alt="Picture of the author"
                 height="582"
                 width="515"
@@ -41,14 +38,14 @@ export default function Home() {
               </p>
               <p>
                 I&apos;m very passion about visual arts so frontend web
-                development comes as second nature to me — as a designer I
+                development comes as second nature to me - as a designer I
                 understand the importance of creating the best experience for
                 your users, so as web developer I will make my mission to
                 accomplish that.
               </p>
               <p>
                 When I&apos;m not coding you can be sure that I&apos;ll be
-                working on some photography or video project — as I said before,
+                working on some photography or video project - as I said before,
                 visuals arts run in my blood.
               </p>
             </div>
@@ -67,8 +64,8 @@ export default function Home() {
                 className={styles.projectCard}
               >
                 <img
-                  src={project1}
-                  alt="Picture of the author"
+                  src={`${prefix}/images/project1.jpg`}
+                  alt="Project Globtrotter"
                   height="245"
                   width="333"
                 />
@@ -84,8 +81,8 @@ export default function Home() {
                 className={styles.projectCard}
               >
                 <img
-                  src={project2}
-                  alt="Picture of the author"
+                  src={`${prefix}/images/project2.jpg`}
+                  alt="Project Popcorn"
                   height="245"
                   width="333"
                 />
@@ -98,8 +95,8 @@ export default function Home() {
                 className={styles.projectCard}
               >
                 <img
-                  src={project3}
-                  alt="Picture of the author"
+                  src={`${prefix}/images/project3.jpg`}
+                  alt="Project Turning Point"
                   height="245"
                   width="333"
                 />
