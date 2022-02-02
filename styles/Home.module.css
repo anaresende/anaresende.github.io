@@ -119,9 +119,44 @@
   .works {
     flex-direction: column;
   }
+
+  .works img {
+    max-width: 100%;
+    height: auto;
+  }
+
   .bio {
     font-size: 14px;
     width: auto;
     padding: 20px;
+  }
+  .photo img {
+    max-width: 100%;
+    height: auto;
+    top: 0;
+    right: 75px;
+  }
+  .coverup {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .works {
+    flex-direction: column;
+    align-items: center;
+  }
+  .works img {
+    max-width: 100%;
+    height: auto;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container {
+    padding: 100px;
+    justify-content: center;
+    height: auto;
   }
 }
