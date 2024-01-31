@@ -113,7 +113,7 @@ export default function Home() {
       </section>
       <section id="contacts">
         <div className={classnames(styles.container, styles.contacts)}>
-          <h2>liked what you've seen?</h2>
+          <h2>liked what you&apos;ve seen?</h2>
           <a href="mailto:anaresende93@gmail.com">
             <h4>let&apos;s get in touch</h4>
           </a>
