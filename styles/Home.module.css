@@ -103,26 +103,10 @@
   color: var(--color-bege);
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 800px) {
   .title {
     font-size: 4rem;
-  }
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-  .container {
-    padding: 60px;
-    justify-content: center;
-    height: auto;
-  }
-  .works {
-    flex-direction: column;
-  }
-
-  .works img {
-    max-width: 100%;
-    height: auto;
   }
 
   .bio {
@@ -130,18 +114,14 @@
     width: auto;
     padding: 20px;
   }
+
   .photo img {
     max-width: 100%;
     height: auto;
     top: 0;
     right: 75px;
   }
-  .coverup {
-    display: none;
-  }
-}
 
-@media (max-width: 800px) {
   .works {
     flex-direction: column;
     align-items: center;
@@ -155,8 +135,11 @@
     flex-direction: column;
   }
   .container {
-    padding: 100px;
+    padding: 100px 60px;
     justify-content: center;
     height: auto;
+  }
+  .coverup {
+    display: none;
   }
 }

@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <Parallax y={[20, -10]}>
             <div className={styles.bio}>
-              <p>I&apos;m a dance teacher going into tech!</p>
+              <p>I&apos;m a dance teacher that switched the thrill of dancing for the art of coding!</p> 
               <p>
                 Coming from a creative field, and with a background in design,
                 I&apos;m keen on building clean code and looking for the pixel
@@ -77,7 +77,7 @@ export default function Home() {
                 </div>
               </a>
               <a
-                href="https://popcornmovie.herokuapp.com/"
+                href="https://github.com/anaresende/project-popcorn"
                 className={styles.projectCard}
               >
                 <img
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
       <section id="contacts">
         <div className={classnames(styles.container, styles.contacts)}>
-          <h2>liked what you seen?</h2>
+          <h2>liked what you've seen?</h2>
           <a href="mailto:anaresende93@gmail.com">
             <h4>let&apos;s get in touch</h4>
           </a>
